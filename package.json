@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "build": "rollup --watch --config",
+    "sass": "sass --watch --style=compressed sass/index.scss public/bundle.css"
+  },
+  "devDependencies": {
+    "rollup": "^3.29.2"
+  }
+}
